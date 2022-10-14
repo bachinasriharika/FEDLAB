@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script>
+var users = [
+      {"user": "krishna"},
+      {"user": "vijay"},
+      {"user": "vasu"},
+      {"user": "venu"},
+      {"user": "rajesh"},
+      {"user": "varun"},
+      {"user": "chandra"}
+      ];
+
+let resultDetails = users.map(user => {
+    let mark = Math.random()*100;
+    user.mark = mark;
+    return user
+});
+
+
+console.log(resultDetails)
+
+
+</script>
+</head>
+<body>
+</body>
+</html>
